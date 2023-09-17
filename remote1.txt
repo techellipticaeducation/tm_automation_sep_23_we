@@ -1,5 +1,5 @@
 this is new line as line 1
 
-this is my remote files 
 
+this is replace of deleted line
 this is one more additional line as line 3
