@@ -11,6 +11,8 @@ public class OperatorDemo {
 		System.out.println(i*j); // 80
 		System.out.println((float)i/(float)j); // 1.25
 		System.out.println(i%j); // 2
+	
+		
 		
 	}
 }

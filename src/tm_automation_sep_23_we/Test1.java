@@ -13,8 +13,8 @@ public class Test1 {
 		// Sysout behaviour
 		// Console ->
 
-		//		System.out.println("Hello"); // ln = new line
-		//		System.out.print("Java"); // /r/n -  CR - Carriage return LF- line feed
+		// System.out.println("Hello"); // ln = new line
+		// System.out.print("Java"); // /r/n -  CR - Carriage return LF- line feed
 
 		// taking input from console
 
