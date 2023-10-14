@@ -3,3 +3,5 @@ docker build -t techelliptica-app .
 
 --to run container
 docker run techelliptica-app 
+
+
