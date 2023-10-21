@@ -21,9 +21,7 @@ public class ChatApplication {
 //      static - makes your variable constant in terms of memory
 		// actual constant final and static
 		
-//		System.out.println(h2.country);
-		
-		
+//		System.out.println(h2.country);	
 //		h1.speak("Hello");
 //		h2.speak("Hey! Hello . How r you?");
 //		h1.speak("Yeah I am good!");
