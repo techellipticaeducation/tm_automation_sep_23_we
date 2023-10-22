@@ -10,11 +10,11 @@ public class MethodDemo {
 		int m1 = 10;
 		int m2 = 2;
 		
-		int l = Calculator.multiply(10,20); // Arguments
-		int k1 = Calculator.multiply(1,2);
-		int k2 = Calculator.multiply(5,2);
-		int k3 = Calculator.multiply(10,2);
-		int k4 = Calculator.multiply(34,2);
+		int l = Calculator1.multiply(10,20); // Arguments
+		int k1 = Calculator1.multiply(1,2);
+		int k2 = Calculator1.multiply(5,2);
+		int k3 = Calculator1.multiply(10,2);
+		int k4 = Calculator1.multiply(34,2);
 		
 		System.out.println(k1);
 		System.out.println(k2);
@@ -25,7 +25,7 @@ public class MethodDemo {
 	}
 }
 
-class Calculator{
+class Calculator1{
 
 	int m ;
 	// input ,  int input1  int input2
