@@ -7,19 +7,18 @@ public class AssertionDemo {
 
 	@DataProvider(name= "amount")
 	public static Object[][] getTestData(){
-		Object[] inputs = {0,1,99,100,101,499,500,501,999,1000,1001};
-		Object[][] obj  = new Object[1][inputs.length];
-		obj[0] = inputs;
+//		{0,1,99,100,101,499,500,501,999,1000,1001}
+		Object[][] obj  = {{0},{1},{99},{100},{101},{499},{500},{501},{999},{1000},{1001}};
+//		obj[0][0] =inputs;
 		return obj;
 	}
 	
 	@Test(dataProvider = "amount")
-	public void calculateTotalAmountTestCase(Object amount1) {
-		int amount  = (Integer)amount1;
+	public void calculateTotalAmountTestCase(int amount) {
+		//int amount  = (Integer)amount1;
 		Interest interest = new Interest();
 		int totalAmount = interest.calculateTotalAmount(amount);
-		System.out.println(totalAmount);
-		
+		System.out.println(totalAmount);	
 	}
 	
 }
