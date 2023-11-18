@@ -12,7 +12,7 @@ public class ConditionStatementDemo {
 		int age = 28;
 		if(age <= 18) {
 			System.out.println("Person is Child");
-		} else if(age > 18 && age <= 30) {
+		}else if(age > 18 && age <= 30) {
 			System.out.println("Person is adult");
 		}else if(age > 26 && age <= 45) {
 			System.out.println("Person is mature");
