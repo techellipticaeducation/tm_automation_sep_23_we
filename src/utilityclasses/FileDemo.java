@@ -35,7 +35,6 @@ public class FileDemo {
 		FileInputStream inputstream = new FileInputStream(readingfile);
 		BufferedInputStream br = new BufferedInputStream(inputstream);
 		
-		// -1 = EOF
 		int ch = -1;
 		while((ch = br.read()) != -1 ) { 
 			System.out.print((char)ch);
