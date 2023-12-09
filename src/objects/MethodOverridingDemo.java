@@ -23,6 +23,15 @@ public class MethodOverridingDemo {
 		// final method cannot be overridden
 		
 		// return type 
+		
+		// Runtime Polymorphism
+		
+		K1 k1      =     new K2();
+		// ref     =     object
+		
+		
+		k1.test1();
+		
 	}
 }
 
@@ -34,9 +43,12 @@ class K1{
 	}
 }
 
-
 class K2 extends K1{
 	public String test1() {
+		System.out.println("I am test1 method from K2");
+		return null;
+	}
+	public String test2() {
 		System.out.println("I am test1 method from K2");
 		return null;
 	}
